@@ -12,7 +12,7 @@ install:
 	CYTHONIZE=1 pip install .
 
 install-from-source: dist
-	pip install dist/cython-package-example-0.1.6.tar.gz
+	pip install dist/cypack-0.1.6.tar.gz
 
 clean:
 	$(RM) -r build dist src/*.egg-info
@@ -22,4 +22,4 @@ clean:
 	#git clean -fdX
 
 uninstall:
-	pip uninstall cython-package-example
+	pip uninstall cypack
