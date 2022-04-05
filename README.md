@@ -25,3 +25,9 @@ CYTHONIZE=1 pip install --user .
 ```bash
 pip install --user cython-package-example
 ```
+
+### From Usage
+
+from cypack.answer import the_answer
+
+the_answer() == 42
