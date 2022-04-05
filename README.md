@@ -23,7 +23,7 @@ CYTHONIZE=1 pip install --user .
 ### From PyPi
 
 ```bash
-pip install --user cython-package-example
+pip install --user cypack
 ```
 
 ### From Usage
