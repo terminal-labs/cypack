@@ -28,6 +28,7 @@ pip install --user cython-package-example
 
 ### From Usage
 
+```bash
 from cypack.answer import the_answer
-
 the_answer() == 42
+```
